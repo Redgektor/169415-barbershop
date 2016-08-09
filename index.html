@@ -3,10 +3,194 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <meta name="description" content="Настоящий мужской барбершоп в Свердловске. Стильная мужская стрижка усов и бороды">
   </head>
   <body>
+  	<header class="main-header">
+  		<div class="container">
+  			<a href="">
+  		</div>
+  			<nav class="maim-navigation">
+  				<ul>
+  				  	<li>
+  						<a href="#">Barbershop</a>
+  						<!-- Как лучше сделать надпись Barbershop? Как пункт меню или отдельным div? Надпись стилизовать при помощи шрифтов или изображения? -->
+  					</li>
+  					<li>
+  						<a href="#">Информация</a>
+  					</li>
+  					<li>
+  						<a href="#">Новости</a>
+  					</li>
+  					<li>
+  						<a href="#">Прайслист</a>
+  					</li>
+  					<li>
+  						<a href="#">Магазин</a>
+  					</li>
+  					<li>
+  						<a href="#">Контакты</a>
+  					</li>
+  				</ul>
+  			</nav>
+  			<div class="user-block">
+  				<a class="login" href="#">Вход</a>
+  			</div>
+  		</div>
+  	</header>
+  	<main class="container">
+  	<h1>Средства для ухода</h1>
+  	<ul>
+  			<li>
+  				<a>Главная</a>
+  			</li>
+  			<li>
+  				<a>Магазин</a>
+  			</li>
+  			<li>
+  				<a>Средства для ухода</a>
+  			</li>
+  	</ul>
+  	<div class="filters">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  		
 
+  		<form action="https://barbershop.catalog.ru" method="get">
+  			<h2>Производители</h2>
+  			<label>
+  				<input type="checkbox" name="baxter-of-california" checked>
+  				BAXTER OF CALIFORNIA
+  			</label>
+  			<label>
+  				<input type="checkbox" name="mr-natty">
+  				MR NATTY
+  			</label>
+  			<label>
+  				<input type="checkbox" name="sauvecito" checked>
+  				SAUVECITO
+  			</label>
+  			<label>
+  				<input type="checkbox" name="sauvecito">
+  				SAUVECITO
+  			</label>
+  			<label>
+  				<input type="checkbox" name="malin+goetz">
+  				MALIN+GOETZ
+  			</label>
+  			<label>
+  				<input type="checkbox" name="murray's">
+  				MURRAY'S
+  			</label>
+  			<label>
+  				<input type="checkbox" name="american-crew" checked>
+  				AMERICAN CREW
+  			</label>
+  		
+  		<h2>Группы товаров</h2>
+
+  			<label>
+  				<input type="radio" name="goods-radio" value="shaving-accesories">
+  				БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
+  			</label>
+  			<label>
+  				<input type="radio" name="goods-radio" value="means-for-care">
+  				СРЕДСТВА ДЛЯ УХОДА
+  			</label>
+  			<label>
+  				<input type="radio" name="goods-radio" value="accesories">
+  				АКСЕССУАРЫ
+  			</label>
+  		
+
+  		<input class="submit-filters" type="submit" name="fiters-button" value="Показать">
+  		</form>
+
+  	</div>
+
+  	<div class="gallery">
+
+  		<article class="gallary-item">
+  			<img src="http://barbershop/img/travel-kit.jpg" alt="Набор для путешествий &laquo;BAXTER OF CALIFORNIA&raquo;" width="200" height="150">
+  			<h3>Набор для путешествий &laquo;BAXTER OF CALIFORNIA&raquo;</h3>
+  			<div class="price-box">
+  				<p class="price">2900 РУБ.</p>
+  				<a class="buy-bottom">Купить</a>
+  			</div>
+  		</article>
+
+  		<article class="gallary-item">
+  			<img src="http://barbershop/img/сonditioner.jpg" alt="Увлажняющий кондиционер &laquo;BAXTER OF CALIFORNIA&raquo;" width="200" height="150">
+  			<h3>Увлажняющий кондиционер &laquo;BAXTER OF CALIFORNIA&raquo;</h3>
+  			<div class="price-box">
+  				<p class="price">750 РУБ.</p>
+  				<a class="buy-bottom">Купить</a>
+  			</div>
+  		</article>
+
+  		<article class="gallary-item">
+  			<img src="http://barbershop/img/hair-gel.jpg" alt="Гель для волос &laquo;SUAVECITO&raquo;" width="200" height="150">
+  			<h3>Гель для волос &laquo;SUAVECITO&raquo;</h3>
+  			<div class="price-box">
+  				<p class="price">290 РУБ.</p>
+  				<a class="buy-bottom">Купить</a>
+  			</div>
+  		</article>
+
+  		<article class="gallary-item">
+  			<img src="http://barbershop/img/hair-gel.jpg" alt="Глина для укладки волос &laquo;AMERICAN CREW&raquo;" width="200" height="150">
+  			<h3>Глина для укладки волос &laquo;AMERICAN CREW&raquo;</h3>
+  			<div class="price-box">
+  				<p class="price">500 РУБ.</p>
+  				<a class="buy-bottom">Купить</a>
+  			</div>
+  		</article>
+
+  		<article class="gallary-item">
+  			<img src="http://barbershop/img/hair-gel-AC.jpg" alt="Гель для волос &laquo;AMERICAN CREW&raquo;" width="200" height="150">
+  			<h3>Гель для волос &laquo;AMERICAN CREW&raquo;</h3>
+  			<div class="price-box">
+  				<p class="price">300 РУБ.</p>
+  				<a class="buy-bottom">Купить</a>
+  			</div>
+  		</article>
+
+  		<article class="gallary-item">
+  			<img src="http://barbershop/img/shaving-set.jpg" alt="Набор для бритья &laquo;BAXTER OF CALIFORNIA&raquo;" width="200" height="150">
+  			<h3>Набор для бритья &laquo;BAXTER OF CALIFORNIA&raquo;</h3>
+  			<div class="price-box">
+  				<p class="price">300 РУБ.</p>
+  				<a class="buy-bottom">Купить</a>
+  			</div>
+  		</article>
+
+  		<a class="page-number" href="http://barbershop/page1"></a>
+  		<a class="page-number active-page" href="http://barbershop/page2"></a>
+  		<a class="page-number" href="http://barbershop/page3"></a>
+  		<a class="page-number" href="http://barbershop/page4"></a>
+  		
+  	</div>
+  	</main>
+  	<footer class="main-footer">
+  		<div class="container">
+  			<div class="footer-contacts">
+  				Барбершоп &laquo;Бородинский&raquo;<br>
+          		Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          		<a href="#">Как нас найти?</a><br>
+          		Телефон: +7 (812) 666-02-66
+  			</div>
+
+  			<div class="social-footer">
+  				<p>Давайте дружить!</p>
+  				<a class="social-btn btn-vk" href="#">Вконтакте</a>
+          		<a class="social-btn btn-fb" href="#">Фейсбук</a>
+          		<a class="social-btn btn-inst" href="#">Инстаграм</a>  				
+  			</div>
+
+  			<div class="footer-copyright">
+  				<p>Разработано:</p>
+  				<a class="copyright" href="https://htmlacademy.ru">HTML Academy</a>
+  			</div>
+  		</div>
+  	</footer>
   </body>
 </html>
