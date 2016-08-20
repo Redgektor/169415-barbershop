@@ -1,25 +1,159 @@
 body {
-	font-family: "PTSans", "Arial", serif;
-	font-size: 14px;
-	line-height: 18px;
-	font-weight: normal;
-	color: #000000;
+    font-family: "PTSans", "Arial", serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #000000;
 
 }
 
 h1 {
-	font-family: "PTSans", "Arial", serif;
-	font-size: 30px;
-	line-height: 42px;
-	font-weight: normal;
-	color: #000000;
-	text-transform: uppercase;
+    font-family: "PTSans", "Arial", serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
 }
 
 h2 {
-	font-family: "PTSans", "Arial", serif;
-	font-size: 14px;
-	line-height: 18px;
-	font-weight: normal;
-	color: #000000;
+    font-family: "PTSans", "Arial", serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #000000;
 }
+
+main {
+    padding-top: 55px;
+    background-color: #f9f6f3;    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    background-color: #000000;
+    min-height: 72px;  
+}
+
+.container {
+    width: 940px;
+    min-height: 72px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-navigation {
+    width: 780px;
+    min-height:72px;
+    float: left;
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+    min-height: 72px;
+}
+
+.main-navigation li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.breadcrumbs {
+     padding-left: 0px;  
+}
+
+.breadcrumbs li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.filter {
+    width: 220px;
+    min-height: 570px;
+    float: left;
+    background-color: #0ff0f0
+}
+
+.gallery {
+    width: 700px;
+    min-height: 600px;
+    float: right;
+    background-color: #aaaaaa;
+}
+
+.gallery-item {
+    width: 220px;
+    min-height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #333333;
+}
+
+.gallery-item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+
+.main-footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    width: 350px;
+    float:left;
+    margin-right: 50px;
+    background: green;
+}
+
+.social-footer {
+    width: 160px;
+    padding: 0 10px;
+    float:left;
+    background: green;
+}
+
+.footer-copyright {
+    width: 140px;
+    float: right;
+    background: green;
+}
+
+.main-header a {
+    font-family: "PTSans", "Arial", serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    }
+    
+.page-nav {
+    padding-left: 0px;
+    clear: both;
+    }
+    
+.page-nav li{
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-right: 7px;
+    background-color: #000000;
+    text-align: center;
+    /*Как выровнять по вертикали правильно ?*/
+    line-height: 43px;
+    color: 
+    }
+    
+.page-nav a {
+    color: #ffffff;
+    }
